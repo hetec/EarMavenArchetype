@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="EarModule:ear exploded">
+    <output-path>$PROJECT_DIR$/EarModule/target/EarTemplate</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EarModule/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/EarModule/target/EarTemplate/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WebModule-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="WebModule:war exploded" />
+      </element>
+      <element id="directory" name="ServiceModule-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="ServiceModule:ejb exploded" />
+      </element>
+      <element id="directory" name="DomainModule-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="DomainModule:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

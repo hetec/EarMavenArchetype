@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="ServiceModule:ejb">
+    <output-path>$PROJECT_DIR$/ServiceModule/target</output-path>
+    <root id="archive" name="EarTemplate.jar">
+      <element id="artifact" artifact-name="ServiceModule:ejb exploded" />
+    </root>
+  </artifact>
+</component>
