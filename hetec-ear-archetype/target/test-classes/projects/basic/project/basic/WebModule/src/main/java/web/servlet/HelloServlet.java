@@ -1,4 +1,4 @@
-package it.pkg.web.servlet;
+package web.servlet;
 
 import domain.LocaleBeanLocal;
 import service.DateBeanLocal;

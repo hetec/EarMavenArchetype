@@ -1,4 +1,4 @@
-package it.pkg.service;
+package service;
 
 import domain.LocaleBeanLocal;
 

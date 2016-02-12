@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.web.servlet;
+package web.servlet;
 
 import domain.LocaleBeanLocal;
 import service.DateBeanLocal;

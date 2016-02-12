@@ -1,4 +1,4 @@
-package it.pkg.domain;
+package domain;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;

@@ -4,6 +4,7 @@
     <groupId>archetype.it</groupId>
     <artifactId>basic</artifactId>
     <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
@@ -24,7 +25,6 @@
         <!-- Ear plugin version -->
         <plugin.ear.version>2.10.1</plugin.ear.version>
     </properties>
-    <packaging>pom</packaging>
 
     <dependencyManagement>
         <dependencies>
@@ -86,17 +86,17 @@
                     <configuration>
                         <modules>
                             <webModule>
-                                <groupId>org.hetec</groupId>
+                                <groupId>archetype.it</groupId>
                                 <artifactId>WebModule</artifactId>
                                 <unpack>true</unpack>
                             </webModule>
                             <ejbModule>
-                                <groupId>org.hetec</groupId>
+                                <groupId>archetype.it</groupId>
                                 <artifactId>ServiceModule</artifactId>
                                 <unpack>true</unpack>
                             </ejbModule>
                             <ejbModule>
-                                <groupId>org.hetec</groupId>
+                                <groupId>archetype.it</groupId>
                                 <artifactId>DomainModule</artifactId>
                                 <unpack>true</unpack>
                             </ejbModule>
